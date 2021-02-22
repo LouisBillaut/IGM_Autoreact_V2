@@ -6,7 +6,7 @@ const Discord = require("discord.js");
 const user = new Discord.Client();
 const config = require("./config.json");
 //Emargement channel from IGM Discord
-let channel = "773863921206558761";
+let channel = ["773863921206558761"];
 let usertoken = config.token;
 user.login(usertoken);
 user.on("ready", ready => {
