@@ -15,8 +15,11 @@ user.on("ready", ready => {
       message.embeds.forEach(m => {
         //test if this is the bot "appel" message
         if(m.title.toString().includes("Appel demandé")){
-          message.react("🙋");
-          console.log("reaction added !")
+          //to be hidden as a bot
+          setTimeout(function () {
+            message.react("🙋");
+            console.log("reaction added !")
+          }, 3000);
         }
       })
     }
