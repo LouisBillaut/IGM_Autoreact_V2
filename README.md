@@ -9,7 +9,7 @@ To install discord.js v.11: `npm install discord.js@11`
 
 ## CONFIGURATION
 config.json is the configuration file of the bot.  
-You must write on the first line, your discord token.  
+You must write in "token" value, your discord token.  
 ⚠️ Warning: your discord token is a private information ! You must never make it public  
 Nice video which explain how to get it: https://www.youtube.com/watch?v=YEgFvgg7ZPI
 
